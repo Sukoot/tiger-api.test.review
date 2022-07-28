@@ -2,7 +2,7 @@ package tiger.api.runner.review;
 
 import com.intuit.karate.junit5.Karate;
 
-public class RunnerReview {
+public class TestRunner {
 	
 	@Karate.Test
 	public Karate runReviewTest() {
