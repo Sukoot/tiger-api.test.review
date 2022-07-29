@@ -7,7 +7,7 @@ public class TestRunner {
 	@Karate.Test
 	public Karate runReviewTest() {
 		return Karate.run("classpath:features")
-				.tags("@EndtoEnd");
+				.tags("@smoke");
 	
 	}
 
